@@ -1,0 +1,90 @@
+/* General Styling */
+
+body {
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+a:hover,
+a:focus {
+  color: lightblue;
+}
+
+main {
+  width: 50%;
+}
+
+/* Navigation */
+
+.navbar-brand {
+  font-size: 25px;
+  padding: 11px 13px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li a {
+  text-align: center;
+  padding: 14px 16px;
+}
+
+nav li a:hover, .active {
+  background-color: aquamarine;
+  color: white;
+}
+
+/* Header */
+
+header {
+  color: white;
+  font-size: 20px;
+  padding: 100px 0;
+  text-align: center;
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#home-header {
+  background-image: url('../../img/home-bg.jpg');
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li a {
+  text-align: center;
+  padding: 14px 16px;
+}
+
+footer li a:hover {
+  background-color: aquamarine;
+  color: white;
+}
+
+footer p {
+  font-size: 17px;
+}

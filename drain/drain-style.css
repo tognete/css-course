@@ -35,6 +35,7 @@ a {
   text-decoration: none;
 }
 
+/* Already moved but missing the right color: */
 a:hover,
 a:focus {
   color: rgb(0, 133, 161);

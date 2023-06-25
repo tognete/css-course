@@ -1,0 +1,38 @@
+h1 {
+  color: gold;
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+}
+
+* {
+  font-family: 'Times New Roman';
+}
+
+.navbar-brand {
+  color: red;
+}
+
+#home-header {
+  background-image: url('../../img/home-bg.jpg');
+}
+
+a[href*='post'] {
+	color: violet;
+}
+
+a:hover,
+a:focus {
+  color: aquamarine;
+}
+
+span {
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}

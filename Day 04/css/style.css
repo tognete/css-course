@@ -1,0 +1,33 @@
+h1 {
+  color: gold;
+  font-family: Arial;
+}
+
+* {
+  font-family: 'Times New Roman';
+}
+
+.navbar-brand {
+  color: red;
+}
+
+#home-header {
+  color: green;
+}
+
+a[href*='post'] {
+	color: violet;
+}
+
+a:hover,
+a:focus {
+  color: aquamarine;
+}
+
+header h1 {
+  color: deeppink;
+}
+
+h1 {
+  color: teal !important;
+}
