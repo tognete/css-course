@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 10px;
+  border: 2px solid green;
+  height: 300vb;
+}
+
+.container {
+  position: relative;
+  border: 2px solid black;
+  height: 600px;
+  margin: 50px 10px;
+}
+
+/* ----------------------------------------------------------------
+-------------------------------------------------------------------
+--- IGNORE CODE ABOVE. Only focus on the 5 box selectors below: ---
+-------------------------------------------------------------------
+---------------------------------------------------------------- */
+
+.box-1 {
+  position: static;
+  border: 3px solid green;
+  background-color: hsl(120, 100%, 85%);
+}
+
+.box-2 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border: 3px solid blue;
+  background-color: hsl(240, 100%, 85%);
+}
+
+.box-3 {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  bottom: 20px;
+  display: inline-block;
+  border: 3px solid yellow;
+  background-color: hsl(60, 100%, 90%);
+}
+
+.box-4 {
+  position: fixed;
+  right: 0;
+  top: 0;
+  border: 3px solid red;
+  background-color: hsl(0, 100%, 90%);
+}
+
+.box-5 {
+  position: sticky;
+  top: 50px;
+  border: 3px solid purple;
+  background-color: hsl(300, 100%, 90%);
+}
+
+/* ----------------------------------------------------------------
+-------------------------------------------------------------------
+--- IGNORE RULES BELOW. Only focus on the 5 box selectors above ---
+-------------------------------------------------------------------
+---------------------------------------------------------------- */
+
+.box-1 p, .box-2 p, .box-3 p, .box-4 p, .box-5 p {
+  width: 100px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5 {
+  height: 100px;
+  width: 250px;
+}
