@@ -89,8 +89,8 @@ header {
   font-size: 20px;
   padding: 100px 0;
   text-align: center;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
